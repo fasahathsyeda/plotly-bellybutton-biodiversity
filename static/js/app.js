@@ -118,10 +118,6 @@ function updateCharts(sample){
           };
           
           Plotly.newPlot("bubble", data, layout);
-
-
-      
-        
     });
 }
 function optionChanged(newSample) {
@@ -131,5 +127,5 @@ function optionChanged(newSample) {
   }
   
 
-
+// Initialize the dashboard
 init();
