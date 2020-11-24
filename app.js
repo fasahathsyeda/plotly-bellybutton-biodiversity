@@ -1,11 +1,8 @@
 // Use D3 fetch to read the JSON file
 // The data from the JSON file is arbitrarily named importedData as the argument
 function init(){
-<<<<<<< HEAD:app.js
-d3.json("././samples.json").then((samplesData) => {
-=======
+
 d3.json("./././samples.json").then((samplesData) => {
->>>>>>> 147ebd5c00057d8db6b27e2f57497129062d2ac5:static/js/app.js
     console.log(samplesData);
     var data = samplesData;
     var selector = d3.select("#selDataset");
