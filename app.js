@@ -2,7 +2,7 @@
 // The data from the JSON file is arbitrarily named importedData as the argument
 function init(){
 
-d3.json("./././samples.json").then((samplesData) => {
+d3.json("data/samples.json").then((samplesData) => {
     console.log(samplesData);
     var data = samplesData;
     var selector = d3.select("#selDataset");
@@ -20,7 +20,7 @@ updateMetadata(firstSubject);
 
 }
 function updateMetadata(sample) {
-    d3.json("././data/samples.json").then((data) => {
+    d3.json("data/samples.json").then((data) => {
         var metadata = data.metadata;
         var filterSample = metadata.filter(sampleObject => sampleObject.id == sample);
         var result = filterSample[0];
@@ -66,7 +66,7 @@ function updateMetadata(sample) {
     });
 }
 function updateCharts(sample){
-    d3.json("../../../data/samples.json").then((data) => {
+    d3.json("data/samples.json").then((data) => {
         var samples = data.samples;
         var filteredSample = samples.filter(sampleObject => sampleObject.id == sample);
         var result = filteredSample[0];
