@@ -1,6 +1,6 @@
 # Plotly-challenge
 # Belly Button Biodiversity
-### Deployed site: https://fasahathsyeda.github.io/Plotly-challenge/
+### Deployed site:  https://fasahathsyeda.github.io/plotly-bellybutton-biodiversity/
 
 ![Bacteria by filterforge.com](Images/bacteria.jpg)
 
